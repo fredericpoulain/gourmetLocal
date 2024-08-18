@@ -1,0 +1,128 @@
+.ast-separate-container {
+    background-color: inherit;
+}
+.archive-banner{
+    background-color: rgb(95, 62, 15);
+    color: #FFFFFF;
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.375rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-image: url('http://localhost/wordpress1/wp-content/uploads/2024/08/archive-recettes.jpg');    
+    background-clip: padding-box;
+}
+.archive-banner::before {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    top: -0px;
+    left: -0px;
+    width: 100%;
+    height: inherit; 
+    border-color: inherit;
+    background: #000000;
+    opacity: 0.65;
+}
+
+.archive-banner h1{
+    z-index: 1;
+    color: #FFFFFF;
+}
+
+.site-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.ast-primary-header-bar{
+    background-color: transparent;
+    border: none!important;
+}
+
+
+.ast-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: none;
+}
+
+
+.containerPageArchive {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.archive-banner {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* ************  LES CARDS  ********* */
+.recipe-cards-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.recipe-card {
+    width: 290px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.recipe-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+}
+
+.recipe-card-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.recipe-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recipe-card-content {
+    padding: 15px;
+}
+
+.recipe-card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.recipe-card-excerpt {
+    font-size: 0.9em;
+    color: #555;
+}

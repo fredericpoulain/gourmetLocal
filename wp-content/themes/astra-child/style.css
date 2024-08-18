@@ -1,0 +1,18 @@
+/* Theme Name: Astra Child
+Theme URI: http://example.com/astra-child
+Description: Thème enfant pour Astra
+Author: Frédéric Poulain
+Author URI: www.fredericpoulain.fr
+Template: astra
+Version: 1.0.0 */
+
+
+/* Gallerie menus */
+.rl-basicgrid-gallery {
+    justify-content: center!important;
+    margin: 50px auto!important;
+    
+}
+.rl-basicgrid-gallery::after{
+    content: none!important;
+}

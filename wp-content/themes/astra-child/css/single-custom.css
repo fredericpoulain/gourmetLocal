@@ -1,0 +1,74 @@
+.ast-separate-container {
+    background-color: inherit;
+}
+.single-banner{
+    background-color: rgb(95, 62, 15);
+    color: #FFFFFF;
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.375rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-image: url('http://localhost/wordpress1/wp-content/uploads/2024/08/archive-recettes.jpg');    
+    background-clip: padding-box;
+}
+.single-banner::before {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    top: -0px;
+    left: -0px;
+    width: 100%;
+    height: inherit; 
+    border-color: inherit;
+    background: #000000;
+    opacity: 0.65;
+}
+
+.single-banner h1{
+    z-index: 1;
+    color: #FFFFFF;
+}
+
+.site-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.ast-primary-header-bar{
+    background-color: transparent;
+    border: none!important;
+}
+
+
+.ast-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: none;
+}
+
+
+.containerPageSingle {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.single-banner {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
